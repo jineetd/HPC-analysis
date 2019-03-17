@@ -1,0 +1,702 @@
+sr_no,benchmark,kernel_name,C/M,reg_thread,smem_pblock,no_of_cmpinst,no_of_globinst,no_of_sharinst,miscelleneous,no_of_blocks,threads_pbl,occupancy,power
+1,simpleHyperQ,kernel_A,C/M,8,0,8,3,0,0,1,1,0.25,58.029
+2,simpleHyperQ,kernel_B,C/M,8,0,8,3,0,0,1,1,0.25,58.029
+3,Basic,div,C/M,13,0,13,2,0,0,1024,16,0.25,68.71354
+4,Basic,div,C/M,13,0,13,2,0,0,1024,32,0.25,70.67411
+5,Basic,div,C/M,13,0,13,2,0,0,512,16,0.25,65.80665
+6,Basic,div,C/M,13,0,13,2,0,0,512,32,0.25,66.85619
+7,Basic,div,C/M,13,0,13,2,0,0,256,16,0.25,64.32306
+8,Basic,div,C/M,13,0,13,2,0,0,256,32,0.25,64.74339
+9,Basic,div,C/M,13,0,13,2,0,0,128,16,0.25,63.75511
+10,Basic,div,C/M,13,0,13,2,0,0,128,32,0.25,63.93848
+11,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,16,0.25,69.50112
+12,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,32,0.25,70.90295
+13,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,16,0.25,66.20555
+14,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,32,0.25,67.16311
+15,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,16,0.25,64.77378
+16,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,32,0.25,65.18788
+17,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,16,0.25,63.98408
+18,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,32,0.25,64.23996
+19,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,16,0.25,86.93273
+20,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,32,0.25,94.90016
+21,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,16,0.25,79.59915
+22,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,32,0.25,91.23186
+23,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,16,0.25,76.48405
+24,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,32,0.25,79.47178
+25,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,16,0.25,71.01216
+26,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,32,0.25,73.14479
+27,saxpy,Saxpy,M,7,0,14,9,0,0,1024,16,0.25,68.74706
+28,saxpy,Saxpy,M,7,0,14,9,0,0,1024,32,0.25,70.28766
+29,saxpy,Saxpy,M,7,0,14,9,0,0,512,16,0.25,66.03399
+30,saxpy,Saxpy,M,7,0,14,9,0,0,512,32,0.25,67.02265
+31,saxpy,Saxpy,M,7,0,14,9,0,0,256,16,0.25,64.70041
+32,saxpy,Saxpy,M,7,0,14,9,0,0,256,32,0.25,65.19117
+33,saxpy,Saxpy,M,7,0,14,9,0,0,128,16,0.25,63.95304
+34,saxpy,Saxpy,M,7,0,14,9,0,0,128,32,0.25,64.21017
+35,saxpy,Saxpy,M,7,0,14,9,0,0,10240,16,0.25,87.02831
+36,saxpy,Saxpy,M,7,0,14,9,0,0,10240,32,0.25,94.86229
+37,saxpy,Saxpy,M,7,0,14,9,0,0,5120,16,0.25,78.84736
+38,saxpy,Saxpy,M,7,0,14,9,0,0,5120,32,0.25,91.83992
+39,saxpy,Saxpy,M,7,0,14,9,0,0,2560,16,0.25,75.82938
+40,saxpy,Saxpy,M,7,0,14,9,0,0,2560,32,0.25,81.49155
+41,saxpy,Saxpy,M,7,0,14,9,0,0,1280,16,0.25,70.81298
+42,saxpy,Saxpy,M,7,0,14,9,0,0,1280,32,0.25,73.1737
+43,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,16,0.25,69.68954
+44,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,32,0.25,72.24666
+45,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,16,0.25,66.6154
+46,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,32,0.25,67.80617
+47,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,16,0.25,65.14003
+48,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,32,0.25,65.59041
+49,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,16,0.25,64.1026
+50,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,32,0.25,64.40014
+51,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,16,0.25,90.95176
+52,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,32,0.25,99.32045
+53,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,16,0.25,83.97982
+54,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,32,0.25,95.98288
+55,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,16,0.25,77.19717
+56,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,32,0.25,85.12279
+57,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,16,0.25,72.02158
+58,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,32,0.25,74.98578
+59,branch,branch,C/M,13,0,18,4,0,0,1024,16,0.25,71.38125
+60,branch,branch,C/M,13,0,18,4,0,0,1024,32,0.25,74.18546
+61,branch,branch,C/M,13,0,18,4,0,0,512,16,0.25,67.19053
+62,branch,branch,C/M,13,0,18,4,0,0,512,32,0.25,68.6592
+63,branch,branch,C/M,13,0,18,4,0,0,256,16,0.25,65.14157
+64,branch,branch,C/M,13,0,18,4,0,0,256,32,0.25,65.67981
+65,branch,branch,C/M,13,0,18,4,0,0,128,16,0.25,64.03604
+66,branch,branch,C/M,13,0,18,4,0,0,128,32,0.25,64.4113
+67,branch,branch,C/M,13,0,18,4,0,0,10240,16,0.25,80.50651
+68,branch,branch,C/M,13,0,18,4,0,0,10240,32,0.25,88.8971
+69,branch,branch,C/M,13,0,18,4,0,0,5120,16,0.25,77.70559
+70,branch,branch,C/M,13,0,18,4,0,0,5120,32,0.25,83.94292
+71,branch,branch,C/M,13,0,18,4,0,0,2560,16,0.25,74.8104
+72,branch,branch,C/M,13,0,18,4,0,0,2560,32,0.25,78.84255
+73,branch,branch,C/M,13,0,18,4,0,0,1280,16,0.25,71.27914
+74,branch,branch,C/M,13,0,18,4,0,0,1280,32,0.25,74.72699
+75,Vector Operation,vecAddMul,,14,0,20,14,0,0,1024,16,0.25,73.45431
+76,Vector Operation,vecAddMul,,14,0,20,14,0,0,1024,32,0.25,76.95863
+77,Vector Operation,vecAddMul,,14,0,20,14,0,0,512,16,0.25,68.83765
+78,Vector Operation,vecAddMul,,14,0,20,14,0,0,512,32,0.25,70.65018
+79,Vector Operation,vecAddMul,,14,0,20,14,0,0,256,16,0.25,66.13497
+80,Vector Operation,vecAddMul,,14,0,20,14,0,0,256,32,0.25,67.1289
+81,Vector Operation,vecAddMul,,14,0,20,14,0,0,128,16,0.25,64.56524
+82,Vector Operation,vecAddMul,,14,0,20,14,0,0,128,32,0.25,65.2621
+83,Vector Operation,vecAddMul,,14,0,20,14,0,0,10240,16,0.25,93.2181
+84,Vector Operation,vecAddMul,,14,0,20,14,0,0,10240,32,0.25,102.246
+85,Vector Operation,vecAddMul,,14,0,20,14,0,0,5120,16,0.25,92.31124
+86,Vector Operation,vecAddMul,,14,0,20,14,0,0,5120,32,0.25,100.3942
+87,Vector Operation,vecAddMul,,14,0,20,14,0,0,2560,16,0.25,81.58603
+88,Vector Operation,vecAddMul,,14,0,20,14,0,0,2560,32,0.25,93.47738
+89,Vector Operation,vecAddMul,,14,0,20,14,0,0,1280,16,0.25,76.55017
+90,Vector Operation,vecAddMul,,14,0,20,14,0,0,1280,32,0.25,82.32016
+91,Pi,gpu_monte_carlo,,35,0,359,79,0,0,16,16,0.25,67.22925
+92,Pi,gpu_monte_carlo,,35,0,359,79,0,0,32,32,0.25,66.7765
+93,concurrentKernels,clock_block,,8,0,8,3,0,0,1,1,0.25,57
+94,basic,oddmult,,17,0,54,31,0,0,1024,16,0.25,77.41016
+95,basic,oddmult,,17,0,54,31,0,0,1024,32,0.25,83.77517
+96,basic,oddmult,,17,0,54,31,0,0,512,16,0.25,73.1363
+97,basic,oddmult,,17,0,54,31,0,0,512,32,0.25,77.31622
+98,basic,oddmult,,17,0,54,31,0,0,256,16,0.25,68.42724
+99,basic,oddmult,,17,0,54,31,0,0,256,32,0.25,69.78893
+100,basic,oddmult,,17,0,54,31,0,0,128,16,0.25,65.93886
+101,basic,oddmult,,17,0,54,31,0,0,128,32,0.25,66.69967
+102,basic,oddmult,,17,0,54,31,0,0,10240,16,0.25,91.217
+103,basic,oddmult,,17,0,54,31,0,0,10240,32,0.25,99.13749
+104,basic,oddmult,,17,0,54,31,0,0,5120,16,0.25,91.8291
+105,basic,oddmult,,17,0,54,31,0,0,5120,32,0.25,99.13318
+106,basic,oddmult,,17,0,54,31,0,0,2560,16,0.25,86.1272
+107,basic,oddmult,,17,0,54,31,0,0,2560,32,0.25,95.92677
+108,basic,oddmult,,17,0,54,31,0,0,1280,16,0.25,80.49013
+109,basic,oddmult,,17,0,54,31,0,0,1280,32,0.25,85.75008
+110,cdpSimpleQuicksort,cdp_simple_quicksort,C/M,20,0,93,15,0,0,1,1,0.25,62.244
+111,CFD,CFDFlux_193K,C/M,62,0,516,57,0,40,1008,192,0.47,48.121
+112,CFD,CFDFlux_97K,C/M,62,0,516,57,0,40,506,192,0.47,74.77
+113,CFD,CFDFlux_Missile,C/M,62,0,516,57,0,40,1212,192,0.47,47.596
+114,Basic,div,C/M,13,0,13,2,0,0,1024,64,0.5,77.09176
+115,Basic,div,C/M,13,0,13,2,0,0,512,64,0.5,69.5961
+116,Basic,div,C/M,13,0,13,2,0,0,256,64,0.5,66.23292
+117,Basic,div,C/M,13,0,13,2,0,0,128,64,0.5,64.54728
+118,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,64,0.5,76.91284
+119,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,64,0.5,70.43985
+120,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,64,0.5,66.85511
+121,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,64,0.5,65.05376
+122,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,64,0.5,109.0718
+123,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,64,0.5,105.4605
+124,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,64,0.5,97.11741
+125,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,64,0.5,80.98334
+126,saxpy,Saxpy,M,7,0,14,9,0,0,1024,64,0.5,76.77359
+127,saxpy,Saxpy,M,7,0,14,9,0,0,512,64,0.5,69.68123
+128,saxpy,Saxpy,M,7,0,14,9,0,0,256,64,0.5,66.64345
+129,saxpy,Saxpy,M,7,0,14,9,0,0,128,64,0.5,64.90641
+130,saxpy,Saxpy,M,7,0,14,9,0,0,10240,64,0.5,109.6136
+131,saxpy,Saxpy,M,7,0,14,9,0,0,5120,64,0.5,105.68
+132,saxpy,Saxpy,M,7,0,14,9,0,0,2560,64,0.5,98.71918
+133,saxpy,Saxpy,M,7,0,14,9,0,0,1280,64,0.5,80.88561
+134,Vector Addition,vectorAdd3,,12,0,16,9,0,0,1024,64,0.5,78.72034
+135,Vector Addition,vectorAdd3,,12,0,16,9,0,0,512,64,0.5,71.20216
+136,Vector Addition,vectorAdd3,,12,0,16,9,0,0,256,64,0.5,67.59416
+137,Vector Addition,vectorAdd3,,12,0,16,9,0,0,128,64,0.5,65.32788
+138,Vector Addition,vectorAdd3,,12,0,16,9,0,0,10240,64,0.5,109.0494
+139,Vector Addition,vectorAdd3,,12,0,16,9,0,0,5120,64,0.5,106.6347
+140,Vector Addition,vectorAdd3,,12,0,16,9,0,0,2560,64,0.5,101.6103
+141,Vector Addition,vectorAdd3,,12,0,16,9,0,0,1280,64,0.5,88.77035
+142,branch,branch,C/M,13,0,18,4,0,0,1024,64,0.5,83.52955
+143,branch,branch,C/M,13,0,18,4,0,0,512,64,0.5,73.49032
+144,branch,branch,C/M,13,0,18,4,0,0,256,64,0.5,68.21031
+145,branch,branch,C/M,13,0,18,4,0,0,128,64,0.5,65.46426
+146,branch,branch,C/M,13,0,18,4,0,0,10240,64,0.5,104.6911
+147,branch,branch,C/M,13,0,18,4,0,0,5120,64,0.5,101.2746
+148,branch,branch,C/M,13,0,18,4,0,0,2560,64,0.5,93.1803
+149,branch,branch,C/M,13,0,18,4,0,0,1280,64,0.5,83.75544
+150,Vector Operation,vecAddMul,,14,0,20,14,0,0,1024,64,0.5,90.70013
+151,Vector Operation,vecAddMul,,14,0,20,14,0,0,512,64,0.5,76.78073
+152,Vector Operation,vecAddMul,,14,0,20,14,0,0,256,64,0.5,70.27043
+153,Vector Operation,vecAddMul,,14,0,20,14,0,0,128,64,0.5,66.79145
+154,Vector Operation,vecAddMul,,14,0,20,14,0,0,10240,64,0.5,115.9497
+155,Vector Operation,vecAddMul,,14,0,20,14,0,0,5120,64,0.5,113.0961
+156,Vector Operation,vecAddMul,,14,0,20,14,0,0,2560,64,0.5,107.3582
+157,Vector Operation,vecAddMul,,14,0,20,14,0,0,1280,64,0.5,98.74266
+158,simpleCUFFT,ComplexPointwiseMulAndScale,C/M,41,0,21,7,0,0,1,64,0.5,63.034
+159,Gaussian,GaussF2_1000,C/M,14,0,39,13,0,4,15625,64,0.5,117.5677
+160,Gaussian,GaussF2_2048,C/M,14,0,39,13,0,4,65536,64,0.5,118.1786
+161,Gaussian,GaussF2_4096,C/M,14,0,39,13,0,4,262144,64,0.5,118.716
+162,Pi,gpu_monte_carlo,,35,0,359,79,0,0,64,64,0.5,81.5014
+163,Pi,gpu_monte_carlo,,35,0,359,79,0,0,1024,1024,0.5,122.1003
+164,basic,oddmult,,17,0,54,31,0,0,1024,64,0.5,101.0493
+165,basic,oddmult,,17,0,54,31,0,0,512,64,0.5,90.98843
+166,basic,oddmult,,17,0,54,31,0,0,256,64,0.5,76.53403
+167,basic,oddmult,,17,0,54,31,0,0,128,64,0.5,69.35899
+168,basic,oddmult,,17,0,54,31,0,0,10240,64,0.5,120.2796
+169,basic,oddmult,,17,0,54,31,0,0,5120,64,0.5,119.204
+170,basic,oddmult,,17,0,54,31,0,0,2560,64,0.5,114.0928
+171,basic,oddmult,,17,0,54,31,0,0,1280,64,0.5,107.0059
+172,MonteCarloMultiGPU,MonteCarloMultiGpu,,34,0,294,75,0,0,256,520,0.56,198
+173,QRNG,quasirandomGenerator,C,40,0,57,1,0,4,128,128,0.75,63.89
+174,Pi,gpu_monte_carlo,,35,0,359,79,0,0,256,256,0.75,123.8046
+175,Pi,gpu_monte_carlo,,35,0,359,79,0,0,128,128,0.75,119.2023
+176,Pi,gpu_monte_carlo,,35,0,359,79,0,0,512,512,0.75,123.8046
+177,nbody,bodysystem,C,38,0,2252,15,129,2,52,256,0.75,139.1495
+178,BFS,BFSv1_1MW(KernelP4Node),C/M,16,0,38,18,0,8,2500,400,0.81,116.6511
+179,BFS,BFSv1_4096(KernelP4Node),C/M,16,0,38,18,0,8,11,400,0.81,62.00705
+180,BFS,BFSv1_65536(KernelP4Node),C/M,16,0,38,18,0,8,164,400,0.81,62.91896
+181,Gaussian,GaussF2_1000,C/M,14,0,39,13,0,4,1764,576,0.84,99.92654
+182,Gaussian,GaussF2_2048,C/M,14,0,39,13,0,4,7396,576,0.84,104.3603
+183,Gaussian,GaussF2_4096,C/M,14,0,39,13,0,4,29241,576,0.84,104.7681
+184,BFS,BFSv2_1MW (Kernel2),C/M,11,0,15,10,0,3,1667,600,0.89,68.80121
+185,BFS,BFSv2_4096 (Kernel2),C/M,11,0,15,10,0,3,7,600,0.89,61.81829
+186,BFS,BFSv2_65536 (Kernel2),C/M,11,0,15,10,0,3,110,600,0.89,62.51519
+187,CFD,CFDInit_193K,M,16,0,12,7,0,0,1008,192,0.94,78.5481
+188,CFD,CFDInit_97K,M,16,0,12,7,0,0,506,192,0.94,68.0969
+189,CFD,CFDInit_Missile,M,16,0,12,7,0,0,1212,192,0.94,78.5581
+190,NN,euclid,C/M,7,0,19,8,0,2,256,168,0.94,50.7959
+191,CFD,CFDComputeStepF_193K,C/M,16,0,34,11,0,0,1008,192,0.94,89.8506
+192,CFD,CFDComputeStepF_97K,C/M,16,0,34,11,0,0,506,192,0.94,78.7229
+193,CFD,CFDComputeStepF_Missile,C/M,16,0,34,11,0,0,1212,192,0.94,96.0856
+194,CFD,CFDTimeStep_193K,M,17,0,37,22,0,0,1008,192,0.94,91.1815
+195,CFD,CFDTimeStep_97K,M,17,0,37,22,0,0,506,192,0.94,80.7792
+196,CFD,CFDTimeStep_Missile,M,17,0,37,22,0,0,1212,192,0.94,90.35
+197,Gaussian,GaussF2_1000,C/M,14,0,39,13,0,4,7056,144,0.94,100.2927
+198,Gaussian,GaussF2_2048,C/M,14,0,39,13,0,4,29241,144,0.94,111.1286
+199,Gaussian,GaussF2_4096,C/M,14,0,39,13,0,4,116964,144,0.94,111.6003
+200,Convolution Text,ConvT_C,M,21,0,55,4,0,2,24576,192,0.94,65.556
+201,Convolution Text,ConvT_R,M,22,0,55,4,0,2,24576,192,0.94,64.88
+202,sum,sum,C/M,8,0,0,0,0,0,200,1024,1,66.3744
+203,SUM,sum,C/M,8,0,0,0,0,0,200,512,1,64.57303
+204,SUM,sum,C/M,8,0,0,0,0,0,200,256,1,63.65194
+205,SUM,sum,C/M,8,0,0,0,0,0,200,128,1,63.1429
+206,SUM,sum,C/M,8,0,0,0,0,0,100,128,1,62.8295
+207,SUM,sum,C/M,8,0,0,0,0,0,100,256,1,63.08539
+208,SUM,sum,C/M,8,0,0,0,0,0,100,512,1,63.5443
+209,SUM,sum,C/M,8,0,0,0,0,0,100,1024,1,64.29243
+210,SUM,sum,C/M,8,0,0,0,0,0,256,256,1,63.91257
+211,SUM,sum,C/M,8,0,0,0,0,0,512,512,1,67.73822
+212,SUM,sum,C/M,8,0,0,0,0,0,1024,1024,1,70.9846
+213,SUM,sum,C/M,8,0,0,0,0,0,2048,1024,1,71.8788
+214,SUM,sum,C/M,8,0,0,0,0,0,4096,1024,1,72.57419
+215,SUM,sum,C/M,8,0,0,0,0,0,8192,1024,1,72.93722
+216,Square,square,C/M,8,0,10,4,0,0,200,1024,1,86.76378
+217,Square,square,C/M,8,0,10,4,0,0,200,256,1,69.54534
+218,Square,square,C/M,8,0,10,4,0,0,200,512,1,76.0073
+219,Square,square,C/M,8,0,10,4,0,0,200,128,1,66.2276
+220,Square,square,C/M,8,0,10,4,0,0,256,256,1,71.19186
+221,Square,square,C/M,8,0,10,4,0,0,512,512,1,93.72037
+222,Square,square,C/M,8,0,10,4,0,0,1024,1024,1,102.9485
+223,Square,square,C/M,8,0,10,4,0,0,16,1024,1,65.02982
+224,Square,square,C/M,8,0,10,4,0,0,32,1024,1,67.3589
+225,Square,square,C/M,8,0,10,4,0,0,64,1024,1,71.89879
+226,saxpy,Saxpy,M,6,0,11,7,0,2,2000,512,1,65.553
+227,saxpy,Saxpy,M,8,0,11,7,0,2,2000,256,1,65.1303
+228,saxpy,Saxpy,M,8,0,11,7,0,2,2000,128,1,64.49651
+229,saxpy,Saxpy,M,8,0,11,7,0,2,4000,256,1,64.28889
+230,saxpy,Saxpy,M,8,0,11,7,0,2,4000,128,1,65.57759
+231,saxpy,Saxpy,M,8,0,11,7,0,2,1000,256,1,64.33803
+232,saxpy,Saxpy,M,8,0,11,7,0,2,1000,128,1,63.65926
+233,saxpy,Saxpy,M,8,0,11,7,0,2,1000,512,1,64.15016
+234,saxpy,Saxpy,M,8,0,11,7,0,2,2000,512,1,65.57889
+235,saxpy,Saxpy,M,8,0,11,7,0,2,1500,512,1,65.38497
+236,saxpy,Saxpy,M,8,0,11,7,0,2,1500,256,1,65.07253
+237,saxpy,Saxpy,M,8,0,11,7,0,2,1500,128,1,63.7159
+238,Transpose,Tpose0_simple copy,M,0,0,12,5,0,0,16384,256,1,108.5171
+239,Transpose,Tpose0_simple copy,M,0,0,12,5,0,0,65536,256,1,111.437
+240,Transpose,Tpose0_simple copy,M,0,0,12,5,0,0,262144,256,1,113.459
+241,Transpose,Tpose0_simple copy,M,8,0,12,5,0,0,4096,256,1,70.7643
+242,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,196,256,1,84.697
+243,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,977,512,1,91.008
+244,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,489,1024,1,109.412
+245,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,196,1024,1,107.531
+246,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,391,512,1,114.808
+247,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,782,256,1,115.481
+248,Basic,div,C/M,13,0,13,2,0,0,1024,128,1,89.88434
+249,Basic,div,C/M,13,0,13,2,0,0,1024,256,1,100.2558
+250,Basic,div,C/M,13,0,13,2,0,0,1024,512,1,106.516
+251,Basic,div,C/M,13,0,13,2,0,0,1024,1024,1,107.8142
+252,Basic,div,C/M,13,0,13,2,0,0,512,128,1,75.97772
+253,Basic,div,C/M,13,0,13,2,0,0,512,256,1,88.17192
+254,Basic,div,C/M,13,0,13,2,0,0,512,512,1,98.86065
+255,Basic,div,C/M,13,0,13,2,0,0,512,1024,1,104.2672
+256,Basic,div,C/M,13,0,13,2,0,0,256,128,1,69.27718
+257,Basic,div,C/M,13,0,13,2,0,0,256,256,1,75.04933
+258,Basic,div,C/M,13,0,13,2,0,0,256,512,1,88.26324
+259,Basic,div,C/M,13,0,13,2,0,0,256,1024,1,98.18559
+260,Basic,div,C/M,13,0,13,2,0,0,128,128,1,66.07364
+261,Basic,div,C/M,13,0,13,2,0,0,128,256,1,68.91873
+262,Basic,div,C/M,13,0,13,2,0,0,128,512,1,74.88151
+263,Basic,div,C/M,13,0,13,2,0,0,128,1024,1,87.36835
+264,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,128,1,97.6587
+265,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,256,1,104.2153
+266,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,512,1,109.7271
+267,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1024,1024,1,111.7509
+268,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,128,1,76.34964
+269,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,256,1,94.66906
+270,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,512,1,102.7117
+271,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,512,1024,1,108.8763
+272,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,128,1,69.96525
+273,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,256,1,76.61978
+274,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,512,1,95.27547
+275,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,256,1024,1,102.6434
+276,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,128,1,66.52445
+277,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,256,1,69.75338
+278,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,512,1,75.96102
+279,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,128,1024,1,96.41658
+280,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,128,1,115.9133
+281,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,256,1,116.4124
+282,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,512,1,116.4858
+283,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,10240,1024,1,115.8608
+284,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,128,1,113.2397
+285,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,256,1,115.2135
+286,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,512,1,115.6934
+287,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,5120,1024,1,115.7084
+288,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,128,1,107.6022
+289,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,256,1,113.3812
+290,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,512,1,114.2899
+291,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,2560,1024,1,114.4137
+292,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,128,1,98.60184
+293,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,256,1,107.7258
+294,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,512,1,112.0475
+295,Vector Addition,vectorAdd,C/M,10,0,13,7,0,2,1280,1024,1,112.7465
+296,alignedTypes,alignedTypes,C/M,12,0,14,11,0,0,64,256,1,110.324
+297,alignedTypes,alignedTypes,C/M,12,0,14,11,0,0,128,256,1,114.904
+298,dwtHaar,testKernel,C/M,12,0,14,5,0,4,64,512,1,54.8398
+299,Transpose,Tpose2_Naive,M,8,0,14,6,0,0,16384,256,1,122.831
+300,Transpose,Tpose2_Naive,M,8,0,14,6,0,0,65536,256,1,123.297
+301,Transpose,Tpose2_Naive,M,8,0,14,6,0,0,4096,256,1,84.938
+302,saxpy,Saxpy,M,7,0,14,9,0,0,1024,128,1,95.72941
+303,saxpy,Saxpy,M,7,0,14,9,0,0,1024,256,1,104.656
+304,saxpy,Saxpy,M,7,0,14,9,0,0,1024,512,1,110.9104
+305,saxpy,Saxpy,M,7,0,14,9,0,0,1024,1024,1,112.0027
+306,saxpy,Saxpy,M,7,0,14,9,0,0,512,128,1,76.15649
+307,saxpy,Saxpy,M,7,0,14,9,0,0,512,256,1,95.80107
+308,saxpy,Saxpy,M,7,0,14,9,0,0,512,512,1,103.7622
+309,saxpy,Saxpy,M,7,0,14,9,0,0,512,1024,1,108.0773
+310,saxpy,Saxpy,M,7,0,14,9,0,0,256,128,1,69.92954
+311,saxpy,Saxpy,M,7,0,14,9,0,0,256,256,1,75.84936
+312,saxpy,Saxpy,M,7,0,14,9,0,0,256,512,1,94.24915
+313,saxpy,Saxpy,M,7,0,14,9,0,0,256,1024,1,102.1866
+314,saxpy,Saxpy,M,7,0,14,9,0,0,128,128,1,66.56799
+315,saxpy,Saxpy,M,7,0,14,9,0,0,128,256,1,70.03485
+316,saxpy,Saxpy,M,7,0,14,9,0,0,128,512,1,74.82757
+317,saxpy,Saxpy,M,7,0,14,9,0,0,128,1024,1,94.8055
+318,saxpy,Saxpy,M,7,0,14,9,0,0,10240,128,1,116.207
+319,saxpy,Saxpy,M,7,0,14,9,0,0,10240,256,1,116.916
+320,saxpy,Saxpy,M,7,0,14,9,0,0,10240,512,1,117.1131
+321,saxpy,Saxpy,M,7,0,14,9,0,0,10240,1024,1,115.4639
+322,saxpy,Saxpy,M,7,0,14,9,0,0,5120,128,1,113.8121
+323,saxpy,Saxpy,M,7,0,14,9,0,0,5120,256,1,115.5209
+324,saxpy,Saxpy,M,7,0,14,9,0,0,5120,512,1,116.4005
+325,saxpy,Saxpy,M,7,0,14,9,0,0,5120,1024,1,116.1928
+326,saxpy,Saxpy,M,7,0,14,9,0,0,2560,128,1,108.057
+327,saxpy,Saxpy,M,7,0,14,9,0,0,2560,256,1,113.7602
+328,saxpy,Saxpy,M,7,0,14,9,0,0,2560,512,1,114.7169
+329,saxpy,Saxpy,M,7,0,14,9,0,0,2560,1024,1,114.8772
+330,saxpy,Saxpy,M,7,0,14,9,0,0,1280,128,1,98.0857
+331,saxpy,Saxpy,M,7,0,14,9,0,0,1280,256,1,106.7286
+332,saxpy,Saxpy,M,7,0,14,9,0,0,1280,512,1,111.7324
+333,saxpy,Saxpy,M,7,0,14,9,0,0,1280,1024,1,113.0642
+334,BFS,BFSv2_1MW (Kernel2),C/M,11,0,15,10,0,3,3907,256,1,69.96515
+335,BFS,BFSv2_4096 (Kernel2),C/M,11,0,15,10,0,3,16,256,1,61.78494
+336,BFS,BFSv2_65536 (Kernel2),C/M,11,0,15,10,0,3,256,256,1,62.54889
+337,BFS,BFSv2_1MW (Kernel2),C/M,11,0,15,10,0,3,977,1024,1,68.73244
+338,BFS,BFSv2_4096 (Kernel2),C/M,11,0,15,10,0,3,4,1024,1,62.02544
+339,BFS,BFSv2_65536 (Kernel2),C/M,11,0,15,10,0,3,64,1024,1,62.89381
+340,Breadth First Search,BFSv2_1MW (Kernel2),C/M,15,0,15,10,0,3,1954,512,1,59.6354
+341,Breadth First Search,BFSv2_4096 (Kernel2),C/M,15,0,15,10,0,3,8,512,1,49.2881
+342,Breadth First Search,BFSv2_65536 (Kernel2),C/M,15,0,15,10,0,3,128,512,1,50.3814
+343,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,128,1,99.78255
+344,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,256,1,107.5636
+345,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,512,1,111.641
+346,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1024,1024,1,112.3862
+347,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,128,1,78.84443
+348,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,256,1,99.5097
+349,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,512,1,107.9861
+350,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,512,1024,1,109.9957
+351,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,128,1,71.72248
+352,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,256,1,79.09588
+353,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,512,1,99.03227
+354,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,256,1024,1,105.1145
+355,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,128,1,67.23213
+356,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,256,1,71.23396
+357,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,512,1,79.3441
+358,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,128,1024,1,97.31381
+359,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,128,1,117.4613
+360,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,256,1,118.1675
+361,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,512,1,117.8788
+362,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,10240,1024,1,115.7171
+363,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,128,1,115.8361
+364,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,256,1,117.0943
+365,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,512,1,116.9886
+366,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,5120,1024,1,115.7229
+367,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,128,1,111.4894
+368,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,256,1,114.8149
+369,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,512,1,115.7144
+370,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,2560,1024,1,114.7095
+371,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,128,1,103.4941
+372,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,256,1,110.0032
+373,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,512,1,113.5649
+374,Vector Addition,vectorAdd3,M,12,0,16,9,0,0,1280,1024,1,113.2977
+375,Fast Walsh Transform,_Z14modulateKernelPfS_i,M,12,0,17,6,0,4,4096,512,1,98.4085
+376,fastWalshTransform,modulateKernel,M,13,0,17,6,0,0,128,256,1,122.966
+377,branch,branch,M,13,0,18,4,0,0,1024,128,1,96.02511
+378,branch,branch,M,13,0,18,4,0,0,1024,256,1,109.5663
+379,branch,branch,M,13,0,18,4,0,0,1024,512,1,115.2722
+380,branch,branch,M,13,0,18,4,0,0,1024,1024,1,112.7153
+381,branch,branch,M,13,0,18,4,0,0,512,128,1,83.27825
+382,branch,branch,M,13,0,18,4,0,0,512,256,1,95.0167
+383,branch,branch,M,13,0,18,4,0,0,512,512,1,108.6512
+384,branch,branch,M,13,0,18,4,0,0,512,1024,1,111.064
+385,branch,branch,M,13,0,18,4,0,0,256,128,1,73.02182
+386,branch,branch,M,13,0,18,4,0,0,256,256,1,83.01744
+387,branch,branch,M,13,0,18,4,0,0,256,512,1,92.93848
+388,branch,branch,M,13,0,18,4,0,0,256,1024,1,104.9896
+389,branch,branch,M,13,0,18,4,0,0,128,128,1,68.09896
+390,branch,branch,M,13,0,18,4,0,0,128,256,1,72.99687
+391,branch,branch,M,13,0,18,4,0,0,128,512,1,81.69835
+392,branch,branch,M,13,0,18,4,0,0,128,1024,1,89.12115
+393,branch,branch,M,13,0,18,4,0,0,10240,128,1,53.61978
+394,branch,branch,M,13,0,18,4,0,0,10240,256,1,53.86198
+395,branch,branch,M,13,0,18,4,0,0,10240,512,1,54.44951
+396,branch,branch,M,13,0,18,4,0,0,10240,1024,1,53.89306
+397,branch,branch,M,13,0,18,4,0,0,5120,128,1,119.295
+398,branch,branch,M,13,0,18,4,0,0,5120,256,1,54.32761
+399,branch,branch,M,13,0,18,4,0,0,5120,512,1,53.55159
+400,branch,branch,M,13,0,18,4,0,0,5120,1024,1,53.57223
+401,branch,branch,M,13,0,18,4,0,0,2560,128,1,113.0285
+402,branch,branch,M,13,0,18,4,0,0,2560,256,1,117.8185
+403,branch,branch,M,13,0,18,4,0,0,2560,512,1,52.70242
+404,branch,branch,M,13,0,18,4,0,0,2560,1024,1,53.69554
+405,branch,branch,M,13,0,18,4,0,0,1280,128,1,102.5664
+406,branch,branch,M,13,0,18,4,0,0,1280,256,1,112.9807
+407,branch,branch,M,13,0,18,4,0,0,1280,512,1,115.4031
+408,branch,branch,M,13,0,18,4,0,0,1280,1024,1,53.47562
+409,K means,KmeansInvert,M,14,0,19,6,0,6,1936,256,1,103.5079
+410,K means,KmeansInvert,M,18,0,19,6,0,6,841,256,1,108.0733
+411,K means,KmeansInvert,M,18,0,19,6,0,6,1936,256,1,108.266
+412,K means,KmeansInvert,M,18,0,19,6,0,6,3249,256,1,110.53
+413,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1024,128,1,108.5084
+414,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1024,256,1,115.5209
+415,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1024,512,1,118.9812
+416,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1024,1024,1,120.4388
+417,Vector Operation,vecAddMul,M,14,0,20,14,0,0,512,128,1,89.48422
+418,Vector Operation,vecAddMul,M,14,0,20,14,0,0,512,256,1,107.4496
+419,Vector Operation,vecAddMul,M,14,0,20,14,0,0,512,512,1,115.0801
+420,Vector Operation,vecAddMul,M,14,0,20,14,0,0,512,1024,1,118.3465
+421,Vector Operation,vecAddMul,M,14,0,20,14,0,0,256,128,1,76.95524
+422,Vector Operation,vecAddMul,M,14,0,20,14,0,0,256,256,1,90.03278
+423,Vector Operation,vecAddMul,M,14,0,20,14,0,0,256,512,1,105.0922
+424,Vector Operation,vecAddMul,M,14,0,20,14,0,0,256,1024,1,112.8178
+425,Vector Operation,vecAddMul,M,14,0,20,14,0,0,128,128,1,69.99407
+426,Vector Operation,vecAddMul,M,14,0,20,14,0,0,128,256,1,76.76625
+427,Vector Operation,vecAddMul,M,14,0,20,14,0,0,128,512,1,90.80263
+428,Vector Operation,vecAddMul,M,14,0,20,14,0,0,128,1024,1,103.7947
+429,Vector Operation,vecAddMul,M,14,0,20,14,0,0,10240,128,1,125.3451
+430,Vector Operation,vecAddMul,M,14,0,20,14,0,0,10240,256,1,125.132
+431,Vector Operation,vecAddMul,M,14,0,20,14,0,0,10240,512,1,125.3057
+432,Vector Operation,vecAddMul,M,14,0,20,14,0,0,10240,1024,1,122.8447
+433,Vector Operation,vecAddMul,M,14,0,20,14,0,0,5120,128,1,123.2315
+434,Vector Operation,vecAddMul,M,14,0,20,14,0,0,5120,256,1,124.5144
+435,Vector Operation,vecAddMul,M,14,0,20,14,0,0,5120,512,1,124.7088
+436,Vector Operation,vecAddMul,M,14,0,20,14,0,0,5120,1024,1,124.0892
+437,Vector Operation,vecAddMul,M,14,0,20,14,0,0,2560,128,1,120.0924
+438,Vector Operation,vecAddMul,M,14,0,20,14,0,0,2560,256,1,122.7686
+439,Vector Operation,vecAddMul,M,14,0,20,14,0,0,2560,512,1,123.1508
+440,Vector Operation,vecAddMul,M,14,0,20,14,0,0,2560,1024,1,122.9592
+441,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1280,128,1,111.3176
+442,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1280,256,1,118.2751
+443,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1280,512,1,120.9258
+444,Vector Operation,vecAddMul,M,14,0,20,14,0,0,1280,1024,1,121.7282
+445,simpleCUFFT,ComplexPointwiseMulAndScale,M,14,0,21,7,0,0,32,256,1,63.034
+446,Gaussian,GaussF1_1000,M,12,0,22,7,0,2,8,128,1,117.185
+447,Gaussian,GaussF1_2048,M,12,0,22,7,0,2,16,128,1,117.483
+448,Gaussian,GaussF1_4096,M,12,0,22,7,0,2,32,128,1,117.3103
+449,Gaussian,GaussF1_1000,M,13,0,22,7,0,2,4,256,1,117.044
+450,Gaussian,GaussF1_2048,M,13,0,22,7,0,2,8,256,1,117.1433
+451,Gaussian,GaussF1_4096,M,13,0,22,7,0,2,16,256,1,117.1852
+452,Gaussian,GaussF1_1000,M,13,0,22,7,0,2,2,512,1,117.366
+453,Gaussian,GaussF1_2048,M,13,0,22,7,0,2,4,512,1,116.966
+454,Gaussian,GaussF1_4096,M,13,0,22,7,0,2,8,512,1,117.329
+455,Gaussian,GaussF1_1000,M,13,0,22,7,0,2,1,1024,1,117.1333
+456,Gaussian,GaussF1_2048,M,13,0,22,7,0,2,2,1024,1,117.2352
+457,Gaussian,GaussF1_4096,M,13,0,22,7,0,2,4,1024,1,117.35
+458,Particle Filter,sum_kernel,M,18,0,22,4,0,6,2,512,1,61.8484
+459,Particle Filter,sum_kernel,M,18,0,22,4,0,6,1,128,1,61.72364
+460,Particle Filter,sum_kernel,M,18,0,22,4,0,6,4,256,1,61.7283
+461,Particle Filter,sum_kernel,M,18,0,22,4,0,6,1,1024,1,61.87009
+462,fastWalshTransform,fwtBatch2Kernel,M,22,0,34,11,0,0,8192,256,1,117.364
+463,Particle Filter,find_index_kernel,M,13,0,34,13,0,8,2,512,1,51.1377
+464,Particle Filter,find_index_kernel,M,13,0,34,13,0,8,1,1024,1,62.10718
+465,Particle Filter,find_index_kernel,M,13,0,34,13,0,8,4,256,1,62.01339
+466,Particle Filter,find_index_kernel,M,13,0,34,13,0,8,1,1024,1,62.10718
+467,Particle Filter,find_index_kernel,M,13,0,34,13,0,8,8,128,1,62.02837
+468,Clock,clock,M,1,0,37,8,3,17,64,256,1,56.026
+469,BFS,BFSv1_1MW(KernelP4Node),M,16,0,38,18,0,8,3907,256,1,69.16224
+470,BFS,BFSv1_4096(KernelP4Node),M,16,0,38,18,0,8,16,256,1,62.01302
+471,BFS,BFSv1_65536(KernelP4Node),M,16,0,38,18,0,8,256,256,1,62.64959
+472,BFS,BFSv1_1MW(KernelP4Node),M,16,0,38,18,0,8,977,1024,1,68.16005
+473,BFS,BFSv1_4096(KernelP4Node),M,16,0,38,18,0,8,4,1024,1,62.02207
+474,BFS,BFSv1_65536(KernelP4Node),M,16,0,38,18,0,8,64,1024,1,62.4201
+475,Breadth First Search,BFSv1_1MW(KernelP4Node),M,12,0,38,18,0,8,1954,512,1,58.9005
+476,Breadth First Search,BFSv1_4096(KernelP4Node),M,12,0,38,18,0,8,8,512,1,49.2093
+477,Breadth First Search,BFSv1_65536(KernelP4Node),M,12,0,38,18,0,8,128,512,1,50.0965
+478,Gaussian,GaussF2_1000,M,14,0,39,13,0,4,3969,256,1,117.9362
+479,Gaussian,GaussF2_2048,M,14,0,39,13,0,4,16384,256,1,118.5003
+480,Gaussian,GaussF2_4096,M,14,0,39,13,0,4,65536,256,1,118.711
+481,Gaussian,GaussF2_1000,M,14,0,39,13,0,4,1024,1024,1,117.7294
+482,Gaussian,GaussF2_2048,M,14,0,39,13,0,4,4096,1024,1,117.408
+483,Gaussian,GaussF2_4096,M,14,0,39,13,0,4,16384,1024,1,116.7362
+484,Shfl_scan,shfl_scan_test,M,14,0,42,6,2,21,256,256,1,53.822
+485,K means,KmeansPoint,M,18,0,43,5,0,12,1936,256,1,103.6195
+486,K means,KmeansPoint,M,18,0,43,5,0,12,1936,256,1,108.799
+487,K means,KmeansPoint,M,18,0,43,5,0,12,841,256,1,109.666
+488,K means,KmeansPoint,M,18,0,43,5,0,12,3249,256,1,110.795
+489,Merge Sort,mergeRanksAndIndices,M,15,0,66,11,0,13,64,256,1,59.2251
+490,Fast Walsh Transform,fwtBatch1Kernel,M,16,0,68,5,7,24,4096,512,1,116.7163
+491,fastWalshTransform,fwtBatch1Kernel,M,16,0,68,5,7,3,4096,512,1,125.175
+492,Merge Sort,MergeMS_generateSample,M,18,0,71,14,0,13,4096,512,1,89.7283
+493,QRNG,inverseCNDKernel,M,19,0,80,6,0,22,128,128,1,57.8593
+494,Black Holes,BlackScholes,M,20,0,114,13,0,2,15625,128,1,157.0229
+495,Black Holes,BlackScholes,M,21,0,114,13,0,2,1563,128,1,149.7715
+496,Black Holes,BlackScholes,M,21,0,114,13,0,2,157,128,1,88.97645
+497,Black Holes,BlackScholes,M,21,0,114,13,0,2,16,128,1,65.40066
+498,Black Holes,BlackScholes,M,21,0,114,13,0,2,313,128,1,102.4792
+499,Black Holes,BlackScholes,M,21,0,114,13,0,2,3125,128,1,149.9229
+500,Black Holes,BlackScholes,M,21,0,114,13,0,2,469,128,1,104.7454
+501,Black Holes,BlackScholes,M,21,0,114,13,0,2,47,128,1,69.98363
+502,Black Holes,BlackScholes,M,21,0,114,13,0,2,352,128,1,111.2447
+503,Black Holes,BlackScholes,M,21,0,114,13,0,2,782,128,1,134.3006
+504,Black Holes,BlackScholes,M,21,0,114,13,0,2,7813,128,1,154.3223
+505,Black Holes,BlackScholes,M,21,0,114,13,0,2,3907,128,1,151.3977
+506,cdpAdvancedQuickSort,qsort_warp,M,32,0,167,125,0,2,1,1024,1,115.289
+507,basic,oddmult,M,17,0,54,31,0,0,1024,128,1,121.4686
+508,basic,oddmult,M,17,0,54,31,0,0,1024,256,1,129.2895
+509,basic,oddmult,M,17,0,54,31,0,0,1024,512,1,131.7547
+510,basic,oddmult,M,17,0,54,31,0,0,1024,1024,1,129.5785
+511,basic,oddmult,M,17,0,54,31,0,0,512,128,1,107.1705
+512,basic,oddmult,M,17,0,54,31,0,0,512,256,1,120.2482
+513,basic,oddmult,M,17,0,54,31,0,0,512,512,1,127.4123
+514,basic,oddmult,M,17,0,54,31,0,0,512,1024,1,127.3047
+515,basic,oddmult,M,17,0,54,31,0,0,256,128,1,90.23908
+516,basic,oddmult,M,17,0,54,31,0,0,256,256,1,104.8
+517,basic,oddmult,M,17,0,54,31,0,0,256,512,1,118.9508
+518,basic,oddmult,M,17,0,54,31,0,0,256,1024,1,122.6432
+519,basic,oddmult,M,17,0,54,31,0,0,128,128,1,76.26762
+520,basic,oddmult,M,17,0,54,31,0,0,128,256,1,91.086
+521,basic,oddmult,M,17,0,54,31,0,0,128,512,1,104.157
+522,basic,oddmult,M,17,0,54,31,0,0,128,1024,1,115.1232
+523,basic,oddmult,M,17,0,54,31,0,0,10240,128,1,138.094
+524,basic,oddmult,M,17,0,54,31,0,0,10240,256,1,139.7034
+525,basic,oddmult,M,17,0,54,31,0,0,10240,512,1,137.8893
+526,basic,oddmult,M,17,0,54,31,0,0,10240,1024,1,131.4052
+527,basic,oddmult,M,17,0,54,31,0,0,5120,128,1,137.8023
+528,basic,oddmult,M,17,0,54,31,0,0,5120,256,1,139.4868
+529,basic,oddmult,M,17,0,54,31,0,0,5120,512,1,139.1979
+530,basic,oddmult,M,17,0,54,31,0,0,5120,1024,1,132.9158
+531,basic,oddmult,M,17,0,54,31,0,0,2560,128,1,132.5528
+532,basic,oddmult,M,17,0,54,31,0,0,2560,256,1,136.256
+533,basic,oddmult,M,17,0,54,31,0,0,2560,512,1,136.8531
+534,basic,oddmult,M,17,0,54,31,0,0,2560,1024,1,132.543
+535,basic,oddmult,M,17,0,54,31,0,0,1280,128,1,125.0708
+536,basic,oddmult,M,17,0,54,31,0,0,1280,256,1,131.3048
+537,basic,oddmult,M,17,0,54,31,0,0,1280,512,1,134.8768
+538,basic,oddmult,M,17,0,54,31,0,0,1280,1024,1,131.1734
+539,cdpSimpleQuicksort,cdp_simple_quicksort,M,20,0,93,15,0,0,128,128,1,67.146
+540,cdpSimpleQuicksort,cdp_simple_quicksort,M,20,0,93,15,0,0,128,256,1,67.824
+541,cdpSimpleQuicksort,cdp_simple_quicksort,M,20,0,93,15,0,0,256,256,1,68.113
+542,cdpSimpleQuicksort,cdp_simple_quicksort,M,20,0,93,15,0,0,512,512,1,67.285
+543,cdpSimpleQuicksort,cdp_simple_quicksort,M,20,0,93,15,0,0,1024,1024,1,67.214
+544,saxpy,Saxpy,M,7,0,14,9,0,0,64000,16,0.25,89.15131
+545,saxpy,Saxpy,M,7,0,14,9,0,0,32000,32,0.25,97.46679
+546,saxpy,Saxpy,M,7,0,14,9,0,0,16000,64,0.5,111.2276
+547,saxpy,Saxpy,M,7,0,14,9,0,0,8000,128,1,115.7717
+548,saxpy,Saxpy,M,7,0,14,9,0,0,4000,256,1,114.7764
+549,saxpy,Saxpy,M,7,0,14,9,0,0,20000,512,1,113.9325
+550,saxpy,Saxpy,M,7,0,14,9,0,0,1000,1024,1,112.7941
+551,saxpy,Saxpy,M,7,0,14,9,0,0,6400,16,0.25,79.90987
+552,saxpy,Saxpy,M,7,0,14,9,0,0,3200,32,0.25,80.7686
+553,saxpy,Saxpy,M,7,0,14,9,0,0,1600,64,0.5,83.32552
+554,saxpy,Saxpy,M,7,0,14,9,0,0,800,128,1,84.31101
+555,saxpy,Saxpy,M,7,0,14,9,0,0,400,256,1,83.4489
+556,saxpy,Saxpy,M,7,0,14,9,0,0,200,512,1,84.35402
+557,saxpy,Saxpy,M,7,0,14,9,0,0,100,1024,1,83.27143
+558,saxpy,Saxpy,M,7,0,14,9,0,0,640,16,0.25,66.15277
+559,saxpy,Saxpy,M,7,0,14,9,0,0,320,32,0.25,65.17214
+560,saxpy,Saxpy,M,7,0,14,9,0,0,160,64,0.5,64.87653
+561,saxpy,Saxpy,M,7,0,14,9,0,0,80,128,1,64.94087
+562,saxpy,Saxpy,M,7,0,14,9,0,0,40,256,1,64.86503
+563,saxpy,Saxpy,M,7,0,14,9,0,0,20,512,1,64.89709
+564,saxpy,Saxpy,M,7,0,14,9,0,0,10,1024,1,64.92595
+565,Transpose,Tpose1_shared memory copy,M,8,1,24,6,1,9,16384,256,1,113.097
+566,Transpose,Tpose1_shared memory copy,M,8,1,24,6,1,9,65536,256,1,114.085
+567,Transpose,Tpose1_shared memory copy,M,8,1,24,6,1,9,262144,256,1,115.31
+568,Transpose,Tpose3_coalesced,M,10,1,25,6,1,1,16384,256,1,117.351
+569,Transpose,Tpose3_coalesced,M,10,1,25,6,1,1,65536,256,1,118.969
+570,Transpose,Tpose5_coarse-grained,M,10,1.0625,21,6,1,1,16384,256,1,117.216
+571,Transpose,Tpose5_coarse-grained,M,10,1.0625,21,6,1,1,65536,256,1,117.333
+572,Transpose,Tpose4_optimized,M,10,1.0625,26,6,1,1,16384,256,1,116.246
+573,Transpose,Tpose4_optimized,M,10,1.0625,26,6,1,1,65536,256,1,118.103
+574,Matrix Multiplication,matmul,M,29,8,73,8,64,2,400,1024,1,96.125
+575,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,16,0.25,69.0378
+576,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,32,0.25,71.13748
+577,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,16,0.25,66.36894
+578,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,32,0.25,67.47787
+579,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,16,0.25,64.8853
+580,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,32,0.25,65.45851
+581,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,16,0.25,64.07263
+582,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,32,0.25,64.32444
+583,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,16,0.25,87.46098
+584,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,32,0.25,95.4895
+585,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,16,0.25,80.50289
+586,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,32,0.25,92.22522
+587,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,16,0.25,76.03714
+588,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,32,0.25,80.05257
+589,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,16,0.25,71.75391
+590,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,32,0.25,73.51141
+591,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,64,0.5,77.52118
+592,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,64,0.5,70.79558
+593,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,64,0.5,66.91234
+594,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,64,0.5,65.11214
+595,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,64,0.5,110.7132
+596,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,64,0.5,106.8602
+597,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,64,0.5,99.04989
+598,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,64,0.5,82.3707
+599,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,128,1,96.13634
+600,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,256,1,107.3096
+601,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,512,1,111.5598
+602,saxpy,Saxpyshared,M,10,12,18,7,0,0,1024,1024,1,112.5934
+603,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,128,1,77.60842
+604,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,256,1,95.74854
+605,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,512,1,104.8472
+606,saxpy,Saxpyshared,M,10,12,18,7,0,0,512,1024,1,109.184
+607,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,128,1,70.76443
+608,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,256,1,77.0932
+609,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,512,1,96.97303
+610,saxpy,Saxpyshared,M,10,12,18,7,0,0,256,1024,1,103.4646
+611,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,128,1,66.80163
+612,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,256,1,70.68765
+613,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,512,1,77.36054
+614,saxpy,Saxpyshared,M,10,12,18,7,0,0,128,1024,1,92.89688
+615,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,128,1,118.5689
+616,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,256,1,119.0038
+617,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,512,1,119.184
+618,saxpy,Saxpyshared,M,10,12,18,7,0,0,10240,1024,1,116.3614
+619,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,128,1,116.6407
+620,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,256,1,117.7024
+621,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,512,1,118.3738
+622,saxpy,Saxpyshared,M,10,12,18,7,0,0,5120,1024,1,117.3402
+623,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,128,1,109.6421
+624,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,256,1,115.0072
+625,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,512,1,116.663
+626,saxpy,Saxpyshared,M,10,12,18,7,0,0,2560,1024,1,116.0291
+627,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,128,1,100.7399
+628,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,256,1,109.5588
+629,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,512,1,114.4252
+630,saxpy,Saxpyshared,M,10,12,18,7,0,0,1280,1024,1,114.1497
+631,Shfl_scan,shfl_uniform_add,M,8,16,18,3,0,5,256,256,1,71.2799
+632,Particle Filter,normalize_weights,M,28,16,41,18,2,22,2,512,1,62.6213
+633,Particle Filter,normalize_weights,M,30,16,41,18,2,22,8,128,1,62.584
+634,Particle Filter,normalize_weights,M,30,16,41,18,2,22,1,1024,1,62.51155
+635,Particle Filter,normalize_weights,M,30,16,41,18,2,22,4,256,1,62.5662
+636,Matrix Multiplication,matmul,M,7,29.8,73,8,64,2,100,1024,1,48.972
+637,concurrentKernels,sum,C/M,12,256,27,4,11,6,1,32,0.25,109.26
+638,simpleHyperQ,sum,C/M,14,256,28,4,3,2,1,32,0.25,54.487
+639,Scan,scanExclusiveShared,M,20,512,34,5,0,6,26624,64,0.5,130.1136
+640,Shfl_scan,shfl_initimage,M,27,512,338,7,2,50,1080,120,1,111.703
+641,Binomial Options,BinomOpt,C/M,49,516,307,1,1,8,1024,128,0.56,58.588
+642,LUD,LUDDiag,C/M,36,1024,176,34,22,17,1,16,0.25,63.088
+643,Histogram,mergeHistogram64,C/M,15,1024,39,5,17,30,256,64,0.5,63.0459
+644,Transpose,Tpose1_shared memory copy,M,8,1024,24,6,1,9,4096,256,1,73.2104
+645,Transpose,Tpose3_coalesced,M,10,1024,25,6,1,1,4096,256,1,77.0491
+646,Histogram,mergeHistogram256Kernel,M,15,1024,39,5,17,30,256,256,1,54.732
+647,Binomial Options,BinomOpt,M,32,1024,307,1,1,8,1024,256,1,48.503
+648,Transpose,Tpose5_coarse-grained,M,10,1088,21,6,1,1,4096,256,1,76.7434
+649,Transpose,Tpose7_diagonal,M,10,1088,23,6,1,7,16384,256,1,112.594
+650,Transpose,Tpose6_fine-grained,M,10,1088,23,5,1,1,16384,256,1,107.559
+651,Transpose,Tpose7_diagonal,M,10,1088,23,6,1,7,65536,256,1,114.422
+652,Transpose,Tpose6_fine-grained,M,10,1088,23,5,1,1,65536,256,1,107.848
+653,Transpose,Tpose7_diagonal,M,10,1088,23,6,1,7,4096,256,1,83.63
+654,Transpose,Tpose6_fine-grained,M,10,1088,23,5,1,1,4096,256,1,73.5342
+655,Transpose,Tpose4_optimized,M,10,1088,26,6,1,1,4096,256,1,75.8094
+656,Shfl_scan,shfl_vertical,M,29,1125,84,8,9,18,60,256,1,53.995
+657,Scan,scanExclusiveShared,M,20,2048,34,5,0,6,53248,32,0.25,112.2582
+658,LUD,LUDint,C/M,36,2048,52,7,32,1,31,256,0.75,77.5758
+659,Scan,scanExclusiveShared,M,20,2048,34,5,0,6,6656,256,1,140.3679
+660,Scan,scanExclusiveShared,M,20,2048,34,5,0,6,3328,512,1,135.3642
+661,Scan,scanExclusiveShared,M,20,2048,34,5,0,6,1664,1024,1,122.455
+662,Scan,scanExclusiveShared,M,20,2048,34,5,0,6,13312,128,1,138.8856
+663,LUD,LUDint,M,21,2048,52,7,32,1,225,256,1,66.97479
+664,LUD,LUDint,M,21,2048,52,7,32,1,3969,256,1,96.52744
+665,LUD,LUDint,M,21,2048,52,7,32,1,961,256,1,77.76337
+666,LUD,LUDint,M,21,2048,52,7,32,1,576,256,1,73.28511
+667,LUD,LUDint,M,21,2048,52,7,32,1,2401,256,1,90.82135
+668,Binomial Options,BinomOpt,M,22,2048,307,1,1,8,1024,512,1,74.0975
+669,Merge Sort,mergeElementaryIntervals,M,16,2072,184,20,37,34,32768,128,1,113.9646
+670,NW,NW1,C/M,28,2180,171,43,92,64,1,16,0.25,49.63
+671,NW,NW2,C/M,28,2180,173,44,92,64,1,16,0.25,49.712
+672,Convolution Seperable,ConvS_R,M,20,2560,165,22,129,5,18432,128,1,59.75
+673,LUD,LUDPeri,C/M,46,3072,293,86,46,3072,10,32,0.25,63.539
+674,LUD,LUDPeri,C/M,46,3072,293,86,46,3072,31,32,0.25,64.388
+675,LUD,LUDPeri,C/M,46,3072,293,86,46,3072,63,32,0.25,66.2777
+676,LUD,LUDPeri,C/M,46,3072,293,86,46,3072,15,64,0.5,63.404
+677,Hotspot,calculate_temp,M,34,3072,121,16,8,21,1849,256,0.75,76.009
+678,fdtd,FiniteDifferencesKernel,C/M,41,3840,690,73,160,141,288,512,0.5,108.0188
+679,LUD,LUDDiag,C/M,52,4096,176,34,22,17,1,32,0.19,62.96798
+680,Histogram,histogram64Kernel,M,17,4096,231,5,80,8,4370,64,0.38,103.1744
+681,Particle Filter,likelihood_kernel,C/M,39,4096,564,52,3,109,2,512,0.75,68.7988
+682,Particle Filter,likelihood_kernel,C/M,38,4096,564,52,3,109,8,128,0.75,68.99635
+683,Particle Filter,likelihood_kernel,C/M,38,4096,564,52,3,109,4,256,0.75,68.68999
+684,Binomial Options,BinomOpt,M,14,4096,307,1,1,8,1024,1024,1,66.527
+685,Stereo,Stereo,M,24,4608,141,6,68,22,1340,256,1,103.8528
+686,Srad,srad2,M,17,5120,95,19,5,21,64,256,1,56.0484
+687,Convolution Seperable,ConvS_C,M,25,5184,184,22,73,5,9216,64,0.28,61.491
+688,Histogram,histogram256Kerne,M,17,6144,63,5,6,10,240,192,0.75,94.5447
+689,Srad,Srad1,M,19,6144,165,22,20,60,64,256,1,56.3509
+690,Merge Sort,mergeSortSharedKernel,C/M,20,8192,73,13,10,15,64,256,0.75,113.4631
+691,Matrix Multiplication,MatrixMul_1024,M,22,8192,73,8,64,6,200,1024,1,95.572
+692,Matrix Multiplication,MatrixMul_200,M,22,8192,73,8,64,6,1024,1024,1,83.254
+693,Matrix Multiplication,MatrixMul_256,M,22,8192,73,8,64,6,256,1024,1,82.2078
+694,Heartwall,heartwall,M,32,11872.26,111,876,94,9,34,512,1,93.6418
+695,LUD,LUDPeri,C/M,48,12288,293,86,46,3072,31,64,0.13,64.9525
+696,LUD,LUDPeri,C/M,48,12288,293,86,46,3072,24,64,0.13,64.4658
+697,LUD,LUDPeri,C/M,48,12288,293,86,46,3072,11,64,0.13,63.5458
+698,Hotspot,hotspot,M,36,12288,9,121,16,8,1849,256,1,94.50677
+699,Hotspot,hotspot,M,36,12288,9,121,16,8,361,1024,1,81.40057
+700,Hotspot,hotspot,M,36,12288,9,121,16,8,16384,64,1,102.285
+701,Hotspot,hotspot,M,36,12288,9,121,16,8,676,576,1,87.87888
